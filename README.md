@@ -1,2 +1,2 @@
 # oshine-27
-trabajo en clase de Diseño web 1
+trabajo en clase de diseño web 1
