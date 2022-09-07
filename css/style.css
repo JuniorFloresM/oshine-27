@@ -1,17 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https//:fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:wght@100;200;300;400;500&display=swap');
 body{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+	font-family: 'Crimson Text', serif;
+	font-size: 16px;
 	color: #888;			
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 header{
 	background-color: #4b5054;
 	padding: 20px 0;
+}
+
+.nav-gris{
+	background-color: #e8e8e7;
+	
+}
+
+.nav-gris .navbar-nav .nav-link {
+		color: #908377;
+}
+
+.bg-gris {
+	background-color: #F5F5F5;
 }
 
 #footer-info{
@@ -27,6 +40,7 @@ header{
 }
 
 #hero{
+	font-family: 'Crimson Text', serif;
 	background-image: url("../img/gallery-2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -90,11 +104,12 @@ header{
 }
 
 .titulo{
+	font-family: 'Crimson Text', serif;
 	text-transform: uppercase;
 	color: #af9f66;
 	text-align: center;
 	letter-spacing: 4px;
-	font-size: 30px;
+	font-size: 34px;
 	margin-bottom: 30px;
 }
 
@@ -102,9 +117,9 @@ header{
 	text-transform: uppercase;
 	color: #999794;
 	text-align: center;
-	letter-spacing: 4px;
+	letter-spacing: 6px;
 	font-size: 14px;
-	font-weight: 700;
+	font-weight: 500;
 	margin-bottom: 30px;
 }
 
@@ -113,7 +128,7 @@ header{
 	margin-right: 15%;
 	margin-bottom: 30px;
 	color: #999794;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.6;
 	text-align: center;
 }
@@ -173,6 +188,7 @@ header{
 	text-decoration: none;
 	margin: auto;
 	font-size: 22px;
+	transition: all 0.4s ease-in-uot;
 	
 	
 }
@@ -185,12 +201,44 @@ header{
 	
 }
 
+.icon-contact{
+	background-color: #fff;
+	width:70px;
+	height:70px;
+	line-height: 70px;
+	display: block;
+	border-radius: 100%;
+	color: #af9f66;
+	text-align: center;
+	font-size: 30px;
+}
 
+#contact h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 16px
+}
 
+.mt-form{
+	margin-top: 7%;
+}
 
+#contact imput{
+	font-family: 'Poppins', sans-serif;
+	border: 0;
+	padding: 8px 10;
+	font-size: 13px;
+	
+}
 
-
-
+#contact textarea{
+	font-family: 'Poppins', sans-serif;
+	border: 0;
+	
+	font-size: 13px;
+	
+}
 	
 	
 	
